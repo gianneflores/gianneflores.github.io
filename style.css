@@ -82,14 +82,15 @@ body{
 	margin: 0 auto;
 }
 .about h1{
-	text-align: center;
+	text-align: left;
 	font-weight: lighter;
     color: #909AB9;
     /*color: #5158BB;*/
-    font-style: italic;
-    font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-    font-size: 17;
-    /*margin: 0px;*/
+    /*font-style: italic;*/
+    font-family: Helvetica;
+    /*font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;*/
+    font-size: 1.5vw;
+    margin: 0 17% 0;
    /* text-align: center;
     max-width: 450px;*/
 }
@@ -118,6 +119,7 @@ body{
     margin: 0px;
 }
 
+
 .dropdown-content {
 	display: none;
     position: absolute;
@@ -125,6 +127,7 @@ body{
   	background-color: white; /*color of dropdownbox*/
   	/* bring your own prefixes */
   	transform: translate(-50%,10%);
+
     border: 2px solid #38928F;
     border-radius: 5px;
     /*min-width: 160px;*/
@@ -133,6 +136,30 @@ body{
     font-size: 1vw;
    	padding: 12px 12px;
 }
+.dropdown-content:after, .dropdown-content:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid ;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.dropdown-content:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.dropdown-content:before {
+	border-color: rgba(56, 146, 143, 0);
+	border-bottom-color: #38928F;
+	border-width: 13px;
+	margin-left: -13px;
+}
+
 
 .dropdown{
 	margin: 20px 40% 0;
@@ -151,8 +178,8 @@ body{
    	font-size: 12px;
 }
 
-a.proj:hover, a.km:active {color: #FEB100;}
-.dropdown-content a:hover {background-color: pink;}
+/*a.proj:hover, a.km:active {color: #FEB100;}
+.dropdown-content a:hover {background-color: pink;}*/
 
 .dropdown:hover .dropdown-content {display: block;}
 
