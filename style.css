@@ -12,7 +12,7 @@
     z-index: 1;
 }
 .headerName {
-	font-family:  Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-family:  Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-size: 7vmin;
     font-weight: lighter;
     color: white;
@@ -22,9 +22,9 @@
     transform: translate(0,-50%);
 }
 .headerButton {
-	font-family:  Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-	font-weight: lighter;
-	text-decoration: none;
+    font-family:  Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
     font-size: 4vmin;
     color: white;
     position: relative;
@@ -34,6 +34,12 @@
     height: 100%;
     max-width: 10vmin;
 
+}
+@media (max-width: 600px){
+    .headerButton{
+        font-size: 3vmin;
+         margin: 0 4vmin 0 0;
+    }
 }
 a {
     text-decoration: none;
@@ -95,6 +101,13 @@ body{
     max-width: 450px;*/
 }
 
+@media (max-width: 600px){
+    .about h1{
+        font-size: 3vw;
+         margin: 0 5%  0;
+    }
+}
+
 .sectionName {
     text-align: center;
     /*transform: translate(-5%,0);*/
@@ -108,6 +121,12 @@ body{
     margin: 0px;
     margin-top: 50px;
     margin-bottom: 25px;
+}
+@media (max-width: 600px){
+    .sectionName{
+        margin-top: 10px;
+        font-size: 10vw;
+    }
 }
 .projNames{
 	text-align: center;
@@ -169,6 +188,14 @@ body{
 	font-weight: lighter;
 	font-size: 2vw;
 }
+
+@media (max-width: 600px){
+    .dropdown{
+        font-size: 6vw;
+         margin: 20px 0  0;
+    }
+}
+
 
 .dropdown-content a {
     padding: 12px 100px;

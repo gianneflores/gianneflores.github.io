@@ -35,6 +35,12 @@
     max-width: 10vmin;
 
 }
+@media (max-width: 600px){
+    .headerButton{
+        font-size: 3vmin;
+         margin: 0 4vmin 0 0;
+    }
+}
 a {
     text-decoration: none;
     text-decoration-line: none;
@@ -84,7 +90,7 @@ body{
     color: #909AB9;
     font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-size: 5vw;
-    border: 2px solid #30807D;;
+    border: 2px solid #30807D;
     border-radius: 20px;
 }
 .list h2{
