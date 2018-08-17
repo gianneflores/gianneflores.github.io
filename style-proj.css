@@ -2,7 +2,7 @@
     /*defaults*/
     box-sizing: border-box;
     margin:0;
-    padding:0;
+    /*padding:0;*/
 }
 .header {
     background-color: #909AB9;
@@ -71,17 +71,17 @@ body{
     display: inline-block;
     min-height: 90vh;
 }
-@media (max-width: 600px){
-    .main{
-        padding: 0;
-        margin: 0;
-    }
-}
+
 .main{
     padding: 40px 22%;
     text-align: left;
 }
-
+@media (max-width: 600px){
+    .main{
+        margin: 0 3% 0;
+        padding: 0 0 10px;
+    }
+}
 .project h1{
     margin: 5% 40% 0;
     padding: .2%;
@@ -93,6 +93,12 @@ body{
     border: 2px solid #30807D;
     border-radius: 20px;
 }
+@media (max-width: 600px){
+    .project h1{
+        margin: 3% 37%;
+        padding: 2% 4%;
+    }
+}
 .list h2{
     margin: 0 auto;
     padding: 0 auto;
@@ -101,6 +107,12 @@ body{
     color: #FEB100;
     font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-size: 36px;
+}
+
+@media(max-width: 600px){
+	.list h2{
+		font-size: 5vw;
+	}
 }
 
 ul {
@@ -117,8 +129,14 @@ ul {
     font-size: 20px;
     line-height: 1.6;
     margin: 0; 
+    
 }
 
+@media(max-width: 600px){
+	.summary{
+		font-size: 4vw;
+	}
+}
 .list{
     text-align: left;
     color: black;
@@ -128,6 +146,13 @@ ul {
     font-size: 20px;
     line-height: 1.4;
 
+}
+
+@media(max-width: 600px){
+	.list {
+		font-size: 4vw;
+		padding: 0;
+	}
 }
 /*#iframe-video{
     position: absolute;
