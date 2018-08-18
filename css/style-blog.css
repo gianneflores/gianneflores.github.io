@@ -110,7 +110,7 @@ body{
     }
 }
 .entryHeader h1{
-    margin: 5% 0 0 0;
+    margin: 3% 0 0 0;
     padding: 0 auto;
     text-align: left;
     font-weight: lighter;
@@ -118,11 +118,11 @@ body{
     font-family: Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     font-size: 4vw;
 }
-@media(max-width: 600px){
+/*@media(max-width: 600px){
     .entryHeader h1{
         margin: 3% 0 0;
     }
-}
+}*/
 .entryDatePublished{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
     font-size: 10px;
