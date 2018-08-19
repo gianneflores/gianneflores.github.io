@@ -265,6 +265,25 @@ footer, p{
     margin: 2% 0 1%;
 
 }
+#counter{
+    font-family:  Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    padding: 0;
+    border: none;
+    background: none;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.p #counter-display{
+    font-family:  Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    color: #909AB9;
+    text-align: center;
+    display: inline-block;
+    margin-left: 3px;
+}
+
 .footer-link-containers {
     position: absolute;
     height: 4.5vmin;
