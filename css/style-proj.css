@@ -215,3 +215,37 @@ iframe {
     max-width:100%;
     height: auto;
 }
+footer{
+    margin: 5% 0 0 0;
+}
+footer, p{
+    font-family:  Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    color: #646464;
+    margin: 2% 0 1%;
+
+}
+.footer-link-containers {
+    position: absolute;
+    height: 4.5vmin;
+    width: 100%;
+    padding: 0% 25% 3%;
+    
+}
+.links{
+
+   font-family:  Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vmin;
+    color: #38928F;
+    position: relative;
+    display: inline-block;
+    margin: 0 3vmin 0 0;
+    height: 100%;
+    max-width: 10vmin;
+}
+.icons{
+  height: 25px;
+}
